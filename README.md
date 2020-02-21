@@ -9,7 +9,7 @@
 ### Linux
 * Get STM32CubeMX [here](https://drive.google.com/open?id=1ghoMddfOygAv4Riyuj9axoAC0LPkqIlH)
 * System Workbench for STM32 - SW4STM32 [here](https://drive.google.com/open?id=16IZvkdUKKK0QfxI6qu8FygTKRyDq-17Q) (If you like Eclipse)
-* Platformio [here](https://github.com/platformio/platformio-core)
+* Platformio [here](https://github.com/platformio/platformio-core) (Optional)
 * STM32PIO [here](https://github.com/ussserrr/stm32pio) (Highly recommended if you're using Platformio)
 * STLink driver [here](https://github.com/texane/stlink)
 
