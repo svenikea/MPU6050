@@ -12,7 +12,7 @@
 * Platformio [here](https://github.com/platformio/platformio-core)
 * STM32PIO [here](https://github.com/ussserrr/stm32pio) (Highly recommended if you're using Platformio)
 * STLink driver [here](https://github.com/texane/stlink)
-* 
+
 ## Installation
 * First, you have to download the MPU6050.c and MPU6050.h file 
 * Then Open Keil C or what ever your Embedded Developement tools peripheral 
