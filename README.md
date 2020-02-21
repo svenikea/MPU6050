@@ -8,8 +8,11 @@
 * STLink driver [here](https://drive.google.com/open?id=1J7AiBV88Fnsd9TBRAAKmvBKSD9iBqoiu)
 ### Linux
 * Get STM32CubeMX [here](https://drive.google.com/open?id=1ghoMddfOygAv4Riyuj9axoAC0LPkqIlH)
-* System Workbench for STM32 - SW4STM32 [here](https://drive.google.com/open?id=16IZvkdUKKK0QfxI6qu8FygTKRyDq-17Q)
+* System Workbench for STM32 - SW4STM32 [here](https://drive.google.com/open?id=16IZvkdUKKK0QfxI6qu8FygTKRyDq-17Q) (If you like Eclipse)
+* Platformio [here](https://github.com/platformio/platformio-core)
+* STM32PIO [here](https://github.com/ussserrr/stm32pio) (Highly recommended if you're using Platformio)
 * STLink driver [here](https://github.com/texane/stlink)
+* 
 ## Installation
 * First, you have to download the MPU6050.c and MPU6050.h file 
 * Then Open Keil C or what ever your Embedded Developement tools peripheral 
