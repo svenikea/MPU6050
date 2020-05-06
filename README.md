@@ -3,12 +3,12 @@
 ## Using STM32CubeMX and some Embedded Developement Tools 
 
 ### Windows
-* STM32CubeMX you can download it [here](https://drive.google.com/open?id=1N8bS0Hrovc6rC6EXCmpEYRuLo2L5LAkY)
-* And Keil C [MDK-528A](https://drive.google.com/open?id=17sjN0DzB7I-pPuRy-l-LpnSjZ-4o4s-3)
-* STLink driver [here](https://drive.google.com/open?id=1J7AiBV88Fnsd9TBRAAKmvBKSD9iBqoiu)
+* STM32CubeMX you can download it [here](https://www.st.com/en/development-tools/stm32cubemx.html)
+* And Keil C [here](http://www.keil.com/)
+* STLink driver [here](https://www.st.com/en/development-tools/st-link-v2.html)
 ### Linux
-* Get STM32CubeMX [here](https://drive.google.com/open?id=1ghoMddfOygAv4Riyuj9axoAC0LPkqIlH)
-* System Workbench for STM32 - SW4STM32 [here](https://drive.google.com/open?id=16IZvkdUKKK0QfxI6qu8FygTKRyDq-17Q) (If you like Eclipse)
+* Get STM32CubeMX [here](https://www.st.com/en/development-tools/stm32cubemx.html)
+* System Workbench for STM32 - SW4STM32 [here](https://www.openstm32.org/HomePage) (If you like Eclipse)
 * Platformio [here](https://github.com/platformio/platformio-core) (Optional)
 * STM32PIO [here](https://github.com/ussserrr/stm32pio) (Highly recommended if you're using Platformio)
 * STLink driver [here](https://github.com/texane/stlink)
