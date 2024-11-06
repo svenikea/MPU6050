@@ -52,15 +52,18 @@ void MPU6050_Read_Accel (float* Ax, float* Ay, float* Az)
 	*Ay = Accel_Y_RAW*100/16384.0;
 	*Az = Accel_Z_RAW*100/16384.0;
 }
-void MPU6050_Read_Gyro (float* Gx, float* Gy, float* Gz)
+
+void MPU6050_Read_Gyro(float* Gx, float* Gy, float* Gz)
 {
-	uint8_t Rec_Data[6];
-	HAL_I2C_Mem_Read (&hi2c1, MPU6050_ADDR, GYRO_XOUT_H_REG, 1, Rec_Data, 6, 1000);
-	Gyro_X_RAW = (int16_t)(Rec_Data[0] << 8 | Rec_Data [1]);
-	Gyro_Y_RAW = (int16_t)(Rec_Data[0] << 8 | Rec_Data [1]);
-	Gyro_Z_RAW = (int16_t)(Rec_Data[0] << 8 | Rec_Data [1]);
-	
-	*Gx = Gyro_X_RAW/131.0;
-	*Gy = Gyro_Y_RAW/131.0;
-	*Gz = Gyro_Z_RAW/131.0;
+    uint8_t Rec_Data[6];
+    HAL_I2C_Mem_Read(&hi2c1, MPU6050_ADDR, GYRO_XOUT_H_REG, 1, Rec_Data, 6, 1000);
+
+    // Correctly assign raw data values for each axis
+    Gyro_X_RAW = (int16_t)(Rec_Data[0] << 8 | Rec_Data[1]);
+    Gyro_Y_RAW = (int16_t)(Rec_Data[2] << 8 | Rec_Data[3]);
+    Gyro_Z_RAW = (int16_t)(Rec_Data[4] << 8 | Rec_Data[5]);
+
+    *Gx = Gyro_X_RAW / 131.0;
+    *Gy = Gyro_Y_RAW / 131.0;
+    *Gz = Gyro_Z_RAW / 131.0;
 }
